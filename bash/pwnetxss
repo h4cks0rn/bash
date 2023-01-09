@@ -1,0 +1,66 @@
+#!/bin/bash
+
+# Author: th3hostname -  IRVING ST   - nmap y pa' dentro
+
+# colorize the output
+color1='\033[0;31m' # Red
+color2='\033[0;33m' # Orange
+color3='\033[0;32m' # Yellow
+color4='\033[0;36m' # Green
+color5='\033[0;34m' # Blue
+color6='\033[0;35m' # Purple
+color7='\033[0;95m' # Pink
+color8='\033[0;30m' # Brown
+color9='\033[0;37m' # Gray
+color10='\033[0;90m' # Black
+color11='\033[0;97m' # White
+color12='\033[0;92m' # Light green
+color13='\033[0;32m' # Dark green
+color14='\033[0;96m' # Light blue
+color15='\033[0;94m' # Dark blue
+color16='\033[0;93m' # Light pink
+color17='\033[0;91m' # Dark pink
+color18='\033[0;33m' # Light orange
+color19='\033[0;31m' # Dark orange
+color20='\033[0;93m' # Light yellow
+color21='\033[0;33m' # Dark yellow
+color22='\033[0;91m' # Light red
+color23='\033[0;31m' # Dark red
+color24='\033[0;90m' # Light brown
+color25='\033[0;30m' # Dark brown
+color26='\033[0;37m' # Light gray
+color27='\033[0;90m' # Dark gray
+color28='\033[0;35m' # Purple
+color29='\033[0;36m' # Turquoise
+color30='\033[0;92m' # Lime
+endColour="\033[0m\e[0m"
+
+
+
+
+trap  ctrl_c INT  
+
+function ctrl_c(){
+      printf "\033c\n" #  clear  the terminal 033c  
+      printf "${color11}Exit${endColour}${color15}..${endColour}\n"
+      exit 1;  tput  cnorm
+}
+
+
+declare  -a  injection_XXS_list=(
+
+
+
+
+
+
+
+
+)
+
+
+
+for  injection_XXS_list  in injection;done
+
+
+done
